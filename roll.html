@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>滚动效果</title>
+		<link rel="stylesheet" type="text/css" href="roll.css"/>
+	</head>
+	
+	
+	<body>
+		<div id="app">
+			<div class="title">滚动容器</div>
+			<div class="content">
+				<div class="item">条目一</div>
+				<div class="item">条目二</div>
+				<div class="item">条目三</div>
+				<div class="item">条目四</div>
+				<div class="item">条目五</div>
+				<div class="item">条目六</div>
+				<div class="item">条目七</div>
+			</div>
+			<div class="byn-container">
+				<input type="text" v-model="intervel" class="intervel" />
+				<div class="btn start" @click="startRoll">开始滚动</div>
+			</div>
+			
+			<div class="tips">
+				鼠标放在容器时暂停滚动
+			</div>
+		</div>
+		
+	</body>
+	<script type="text/javascript" src="js/vue.min.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/roll.js"></script>
+</html>

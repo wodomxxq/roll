@@ -1,0 +1,61 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#app{
+	width: 100%;
+	height: 100%;
+	background-image: url(bg.jpg);
+    padding-top: 20px;
+}
+.content {
+    width: 500px;
+    height: 215px;
+    text-align: center;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+}
+.title, .tips {
+	width: 500px;
+    height: 25px;
+    text-align: left;
+    margin: 0px auto;
+}
+.item {
+    background: #5B5C96;
+    color: #ADDBF4;
+    border-bottom: 1px solid;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+}
+.byn-container {
+    width: 500px;
+    margin: 0 auto 20px;
+}
+input.intervel {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: navajowhite;
+    text-indent: 10px;
+    display: inline-block;
+}
+.btn.start {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    background: #5B5C96;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 290px;
+}
